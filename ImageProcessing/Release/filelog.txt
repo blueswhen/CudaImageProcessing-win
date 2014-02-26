@@ -1,0 +1,63 @@
+Image G:\labsync\code\ImageProcessing\Release\source1.bmp loaded
+Image G:\labsync\code\ImageProcessing\Release\source1.bmp loaded
+Creating angle lookup table
+Input parameters:
+	Spatial Bandwidth		=   21
+	Color Bandwidth		= 11.0
+	Minimum Region		=  100
+	Gradient Window Radius	=    2
+	Mixing Parameter		=  0.3
+	Threshold			=  0.3
+Creating angle lookup table
+Computing confidence map...
+...smooth-differentiation filtering
+...subspace estimate
+...edge strengths
+...computing ranks
+timer start...
+done.
+Applying mean shift (Using Lattice) ... done.( 10.89 sec)
+Connecting regions         ...done. (  0.02 seconds, numRegions =   6450)
+Applying transitive closure...done. (  0.03 seconds, numRegions =   5687)
+Pruning spurious regions   ...done. (  0.02 seconds, numRegions =    194)
+timer stop, elapsed 11.2 seconds.
+Input parameters:
+	Spatial Bandwidth		=   21
+	Color Bandwidth		= 11.0
+	Minimum Region		=  100
+	Gradient Window Radius	=    2
+	Mixing Parameter		=  0.3
+	Threshold			=  0.1
+Creating angle lookup table
+Computing confidence map...
+...smooth-differentiation filtering
+...subspace estimate
+...edge strengths
+...computing ranks
+timer start...
+done.
+Applying mean shift (Using Lattice) ... done.( 10.89 sec)
+Connecting regions         ...done. (  0.02 seconds, numRegions =   6450)
+Applying transitive closure...done. (  0.15 seconds, numRegions =   6245)
+Pruning spurious regions   ...done. (  0.02 seconds, numRegions =    254)
+timer stop, elapsed 11.13 seconds.
+Input parameters:
+	Spatial Bandwidth		=   21
+	Color Bandwidth		= 11.0
+	Minimum Region		=  100
+	Gradient Window Radius	=    4
+	Mixing Parameter		=  0.3
+	Threshold			=  1.0
+Creating angle lookup table
+Computing confidence map...
+...smooth-differentiation filtering
+...subspace estimate
+...edge strengths
+...computing ranks
+timer start...
+done.
+Applying mean shift (Using Lattice) ... done.( 10.60 sec)
+Connecting regions         ...done. (  0.02 seconds, numRegions =   6450)
+Applying transitive closure...done. (  0.03 seconds, numRegions =   2342)
+Pruning spurious regions   ...done. (  0.02 seconds, numRegions =     84)
+timer stop, elapsed 10.72 seconds.
